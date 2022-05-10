@@ -21,7 +21,7 @@ browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/favicon.ico
 ```
 ![FS0 4](https://user-images.githubusercontent.com/51020697/167661912-c939f5b3-8a0a-4be9-9892-a328efdaaecb.png)
 
-## Exercide 0.5
+## Exercise 0.5
 
 ```
 browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
@@ -43,4 +43,13 @@ server-->browser: [Object { content: "1234345", date: "2022-05-10T08:27:12.917Z"
 browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/favicon.ico
 ```
 ![FS0 5](https://user-images.githubusercontent.com/51020697/167664584-2e6af0f6-878e-474f-8383-1afaabb4b8db.png)
+
+## Exercise 0.6
+
+```
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+```
+![FS0 6](https://user-images.githubusercontent.com/51020697/167665224-83c1e804-d27e-47cd-88a2-07afb93b1377.png)
+
+
 
